@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 import List from './List';
 import './Todo';
+import './Layout';
+
 
 function App() {
   const [todos, setTodos] = useState([
@@ -45,18 +47,17 @@ function App() {
     );
   }
 
-  function Layout(props) {
-    return (
-      <div className="layout">
-        {props.children}
-      </div>
-    );
-  }
+  // function Layout(props) {
+  //   return (
+  //     <div className="layout">
+  //       {props.children}
+  //     </div>
+  //   );
+  // }
 
   return (
     <div>
       <Header />
-      <Layout>
         <form onSubmit={onSubmitHandler} className="form_container">
           <div className="input_container">
             <label>제목</label>
@@ -70,7 +71,6 @@ function App() {
             <label>내용</label>
             <input
               type="text"
-              name="body"
               onChange={(e) => setInputTodo({ ...inputTodo, body: e.target.value })}
               value={inputTodo.body}
             />
@@ -78,7 +78,6 @@ function App() {
           <button>추가하기</button>
         </form>
         <List todos={todos} setTodos={setTodos} />
-      </Layout>
     </div>
   );
 }
