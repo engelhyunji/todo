@@ -1,6 +1,7 @@
 
 <p align="center">
-  <img src = ![img](https://github.com/engelhyunji/todo/assets/145903783/e606d38e-74fc-4330-a227-1aaacc67f252)
+  <img src = 
+![img](https://github.com/engelhyunji/todo/assets/145903783/1664e1a4-1c4a-43e0-80b6-90a31915e05b)
 
 >
 </p>
