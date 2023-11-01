@@ -1,5 +1,6 @@
 
 <p align="center">
-  <img src = ![img](https://github.com/engelhyunji/todo/assets/145903783/137129fb-c87a-4b2f-a669-a7aa7083468c)
+  <img src = ![img](https://github.com/engelhyunji/todo/assets/145903783/e606d38e-74fc-4330-a227-1aaacc67f252)
+
 >
 </p>
